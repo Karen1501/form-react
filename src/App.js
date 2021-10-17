@@ -85,7 +85,7 @@ const App = () => {
             <button
               onClick={onAdd}
               type="button"
-              className="mr-3 text-sm bg-blue-500 hover:bg-blue-700 text-white py-1 px-5 rounded focus:outline-none focus:shadow-outline"
+              className="mr-3 text-sm bg-blue-500 hover:bg-blue-700 text-dark py-1 px-5 rounded focus:outline-none focus:shadow-outline"
             >
               Agregar usuario
             </button>
@@ -124,7 +124,7 @@ const App = () => {
                         <button
                           onClick={() => onDelete(index)}
                           type="button"
-                          className="text-sm bg-red-500 hover:bg-red-700 text-white py-1 px-2 rounded focus:outline-none focus:shadow-outline"
+                          className="text-sm bg-red-500 hover:bg-red-700 text-dark py-1 px-2 rounded focus:outline-none focus:shadow-outline"
                         >
                           Eliminar
                         </button>
@@ -143,7 +143,7 @@ const App = () => {
             <button
               onClick={onAddField}
               type="button"
-              className="mr-3 text-sm bg-blue-500 hover:bg-blue-700 text-white py-1 px-5 rounded focus:outline-none focus:shadow-outline"
+              className="mr-3 text-sm bg-blue-500 hover:bg-blue-700 text-dark py-1 px-5 rounded focus:outline-none focus:shadow-outline"
             >
               Add Fields
             </button>
@@ -176,7 +176,7 @@ const App = () => {
                     <button
                       onClick={() => onDeleteExtraField(index)}
                       type="button"
-                      className="mr-3 text-sm bg-blue-500 hover:bg-blue-700 text-white py-1 px-5 rounded focus:outline-none focus:shadow-outline"
+                      className="mr-3 text-sm bg-blue-500 hover:bg-blue-700 text-dark py-1 px-5 rounded focus:outline-none focus:shadow-outline"
                     >
                       Delete Fields
                     </button>
